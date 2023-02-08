@@ -25,8 +25,8 @@ const Layout =()=>{
 }
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
-     
-        <Route path="/" element={<Layout />}>
+        <base
+        <Route path="/amazonclone " element={<Layout />}>
           <Route index element={<Home/>} ></Route>
         </Route>
         
