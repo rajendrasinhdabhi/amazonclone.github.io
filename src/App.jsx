@@ -25,11 +25,11 @@ const Layout =()=>{
 }
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
-        <base
-        <Route path="/amazonclone " element={<Layout />}>
+        <Router basename="/amazonclone">
+        <Route path="/ " element={<Layout />}>
           <Route index element={<Home/>} ></Route>
         </Route>
-        
+        </Router>
      
   ))
 
