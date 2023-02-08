@@ -1,8 +1,8 @@
 {
   "name": "amazon",
-  "private": "false",
+  "private": false,
   "version": "0.0.0",
-  "homepage": "https://rajendrasinhdabhi.github.io/amazonclone.github.io/",
+  "homepage": "https://rajendrasinhdabhi.github.io/amazonclone.github.io",
   "type": "module",
   "scripts": {
     "predeploy":"npm run build",
