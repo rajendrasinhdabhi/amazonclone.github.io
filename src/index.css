@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .headerHover{
+    @apply px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100
+    }
+    .bottom{
+        @apply text-sm font-thin mb-1 border-b-[opx] border-transparent hover:border-b-[1px] border-zinc-400 cursor-pointer
+    }
+    .producti{
+        @apply text-gray-600 hover:text-black text-sm font-medium border-b-[1px] border-b-gray-700 flex justify-end gap-2 hover:cursor-pointer duration-300 w-full;
+    }
+}
